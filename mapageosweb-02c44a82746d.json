@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mapageosweb",
+  "private_key_id": "02c44a82746df5d72cc66d92ae8807178b57ee73",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCr1A7GLlUXWDLC\nR6OuoBrbJJlEyPI+7E/jDl7ggzQ9SIrIjisjfdBtyZsHM21GogirXwcn11xi7ZC2\nOoPsfOwVjnGKjKoa49NH27nAsKo5YJ5mM2JAR3YRMxeS7bsuQ5JeSdlIfFnfWJZJ\nr1Vw60xlgS5RGkwMUGIlEx8m5Ox9UeZIp0tAIYj4TjbbqIlLeJeb5F6SxmcALdeI\nt22ByxfCS3JbC067XEL39+zp1iWtQ2+DYBn17LAYeR/6fAZCHwb1NEQI976NO8mL\neQnHCV2EOlyrDVPwDjlYtgd927cr3d7cVrhm708SVUdK0AEkTQIHVPM0Xu5k0Tj9\nCUQRW7+VAgMBAAECggEAI5TG9mzzu+DMqgRxtaB7zzNV9bNyzmra5Ba+uNkSgTo7\nWuptrmzIM2PTEXupvj2hc/M6pRpojCfLlqCpXthDfvc/NcSJGQZiYvfyEB/FMBp8\n0ocDanIh1c/xqsBFyX++mH3MW8E8Tw6mGF4RYE+pQz+r2qmKY+ZlXG4IPmKbQhvT\niehKPUtPg9Y/LBDI368tahwHJkramc0eFEKfuvheuc0hC3Wq84o5mYcI7FDjGuaM\n8rlGQVzL8HXcuU+JvbjnH6E1vkGQwv9KsD5iQdHyA4tKBgvihpCR14kE1rIYiK+q\nDdq1Mcd/Ggk1q21Wk5ho2hVIQ3yqt4M/ynaI6bHo5QKBgQDdW5Rlp4Q7/dXa3yVt\nQ3YhH7lyGNKH3ooawU9YCWzF/C4MkvmOpvSn6oBol9Oa1j0ERco0GVrLHtjRXkjX\nuLzeIb5trwG7IzMfPkelvtoj7sOYioBriLmuiYl9LSuxP933Ctzepnm/efubY65Q\nlI3G8xPYBUoOStBFDuGnNaiqswKBgQDGuCU19q14dOGs7MMAjouBkk4s2jIHmcTw\nnAG14Ffy/8i4meVzUbVlrD/+CqIQrqnDVEFtKMdKwlJIeeaTOflHqIBRirL4oeNv\nInvpeGawAFJF3Z+g9Uc3fHCwH5/LxN9aAng6NjtBW2obfSLSSolAze1+2HEPB/1O\ncaqrxmywlwKBgF7EyIHE+E4e3KH6CzH+QeLojCKXEfttgT73KBsO3ezdjHGBsyop\nvHDvas5cwhF2S2U649juSfrQWA87CICi7OlFFRwsYtdVuJtVtKL3VLkxjbgPA/AF\n90kMRTq8Tgpyx3ruwaTpLRKXDOt3/7csAo78nrBLg2sfCI+oUV+fD3kVAoGBAKBh\nbH7SGQ034A+tgnCHmyY3C2r9qxUhUKYUcvj0GGdhcwEyC9J3ppxpWbhRop0uKosg\nDDHqkHXQwZIG+EXoqzzfTLkC5RDvr1w5i6JRbycrCzuh87x3WUP55gTvcQuHV/AQ\nQDJTJJ3KBqgq5ZitWXr4+G3Ah/bmrtTJvkImwf//AoGBAMnWQLpUgiKg0DP6racV\nVfeapYgnl4R85TJZeCS4IrLoQjG8x9d6/TlyaJAzvDBVEzLwBn1ieCxFP66Px4p9\n7VlTDPIHDO0gA1V8AjfK4QtNDrJ4Sr1fOVIFGkFKHwRNR2jsEhUiz7B1teFdo4IN\n5fdS9PH6jqxbIhy0Z8f53dse\n-----END PRIVATE KEY-----\n",
+  "client_email": "backend-mapa-geos@mapageosweb.iam.gserviceaccount.com",
+  "client_id": "107890732315645659584",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-mapa-geos%40mapageosweb.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
