@@ -4,18 +4,18 @@ require('dotenv').config();
 // Importar módulos necesarios
 const express = require('express');
 const { google } = require('googleapis');
-const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Autenticación con Google Drive usando cuenta de servicio
+// Obtener credenciales desde variable de entorno
+const credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
+
+// Autenticación con Google Drive usando las credenciales
 const auth = new google.auth.GoogleAuth({
-  keyFile: path.join(__dirname, 'service-account.json'), // Asegúrate de que el archivo esté aquí
+  credentials: credentials,
   scopes: ['https://www.googleapis.com/auth/drive.readonly'],
 });
-
-let drive; // la instancia se crea async más abajo
 
 // Ruta para probar si el backend responde
 app.get('/', (req, res) => {
@@ -25,11 +25,10 @@ app.get('/', (req, res) => {
 // Ruta para listar archivos de una carpeta de Drive
 app.get('/list-files', async (req, res) => {
   try {
-    // Autenticarse y crear el cliente de Drive
     const authClient = await auth.getClient();
-    drive = google.drive({ version: 'v3', auth: authClient });
+    const drive = google.drive({ version: 'v3', auth: authClient });
 
-    const folderId = process.env.FOLDER_ID; // Debes agregar esto a tu archivo .env
+    const folderId = process.env.FOLDER_ID; // Esta variable también debe estar en Render
 
     const response = await drive.files.list({
       q: `'${folderId}' in parents and trashed = false`,
